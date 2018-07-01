@@ -11,8 +11,6 @@
     "options_page": "options.html",
     "background":{
         "scripts": ["eventPage.js"],
-        // persistence: false means that it is an Event Page(Runs only when required).
-        // persistence: true denotes a Background Page(Runs all the time).
         "persistence": false
     },
     "icons": {
