@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "PageFontStyle Extension",
+    "description": "Changes font style on specific pages",
+    "icons": {
+        "16": "icon16.png",
+        "30": "icon30.png",
+        "120": "icon120.png"
+    },
+    "page_action": {
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html",
+        "default_title": "Page Font Style"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
